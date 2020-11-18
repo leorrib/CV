@@ -1,0 +1,337 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{varwidth}
+\usepackage{enumitem}
+\usepackage{hyperref}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.4\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	%\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUpp%ercase{Leonardo}}}}} % First name
+	
+	%\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUpp%ercase{Ribeiro}}}}} % Last name
+	
+	%\vspace{6pt}
+	
+	{	
+		%Curriculum Vitae\\\\ 
+		\huge Leonardo Rodrigues Ribeiro \\\\
+		\huge \textbf{Analista de Teste (QA)}
+	} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Grajaú, Rio de Janeiro}\\
+	\icon{Phone}{12}{(21) 96845-9688}\\
+	%\icon{At}{12}{\href{mailto:alyx@vance.me}{alyx@vance.me}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.300\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{At}{12}{\href{mailto:ribeiro.lrodrigues@gmail.com}{ribeiro.lrodrigues@gmail.com}}
+	%\icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+	\icon{Github}{12}{\href{https://github.com/leorrib}{github.com/leorrib}}\\
+	%\icon{Twitter}{12}{\href{https://twitter.com/@alyxvance}{@alyxvance}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+%\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+%	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+%	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+%\end{minipage}
+%\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Linguagens de Programação}
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{90}
+		\baritem{Java}{80}
+		\baritem{Python}{70}
+		\baritem{TypeScript}{60}
+		\baritem{Ruby}{50}
+		%\baritem{LaTeX}{60}
+	\end{barchart}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.53\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Tecnologias, Ferramentas e Outros}
+	
+		\begin{minipage}[t]{0.5\textwidth}
+		\begin{itemize}[label={\large\textbullet}]
+		\setlength\itemsep{0.01em}
+		\item Selenium (Java \& Python)
+		\item Junit \& TestNG 
+		\item Rest Assured
+		\item Robot Framework
+		\item Cucumber \& Behave
+		\item SQL 
+		\end{itemize}
+		\end{minipage}
+		\begin{minipage}[t]{0.5\textwidth}
+		\begin{itemize}
+			\setlength\itemsep{0.01em}
+		\item Protractor
+		\item Jest 
+		\item Supertest
+		\item Git (lab \& hub)
+		\item Docker
+		\item Jenkins
+		\end{itemize}
+	\end{minipage}
+\end{minipage}
+%
+
+\cvsect{Quem sou eu}
+
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Doutor em Física pela UERJ e com passagens como professor universitário tanto na UERJ quanto na UFRJ, hoje atuo como Analista de Qualidade de Software, com ênfase em Automação. Minha formação educacional sólida, voltada para raciocínio lógico e pensamento analítico, qualificou-me para enfrentar desafios intelectuais do mais alto nível. Foi com base nesta qualificação que pude absorver rapidamente conceitos relacionados à programação e fazer uma transição bem-sucedida da área de Ciências Exatas para a de Tecnologia da Informação.
+%\begin{center}
+%	\bubbles{
+%		5/\begin{varwidth}[]{\linewidth}
+%			\begin{center}
+%				Selenium\\
+%				WebDriver
+%			\end{center}
+%		\end{varwidth},
+%		4/\begin{varwidth}[c]{\linewidth}
+%			\begin{center}
+%				Rest\\
+%				Assured
+%			\end{center}
+%		\end{varwidth}, 
+%		5/Protractor, 
+%		5/Jenkins, 
+%		5/Git, 
+%		5/TestNG}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsect{Experiência Profissional}
+
+\begin{entrylist}
+	\entry
+	{2020 (atual)}%\\\footnotesize{part time}}
+	{Analista de Teste}
+	{Noesis Consultoria e Programação de Sistemas de Informática LTDA}
+	{- Serviço de análise de qualidade de software com formulação de testes de API e de UI. Prática em SQL para manipulação de banco de dados. Testes de API integrados diretamente no pipeline. Experiência com CI/CD.}
+		\entry
+	{2017 -- 2018}
+	{Professor}
+	{UFRJ}
+	{- Disciplinas ministradas: Matemática II, C\'alculo II e C\'alculo III.}
+	\entry
+	{2015 -- 2016}
+	{Pesquisador Visitante}
+	{University of Illinois at Urbana-Champaign}
+	{- Desenvolvimento de pesquisas no campo de F\'isica da Mat\'eria Condensada.}
+	\entry
+	{2013 -- 2014}
+	{Professor}
+	{UERJ}
+	{- Disciplinas ministradas: Matemática Aplicada a Negócios, C\'alculo I, C\'alculo IV e Funções Complexas.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\cvsect{Educação Acadêmica}
+
+\begin{entrylist}
+	\entry
+	{2013 -- 2019}
+	{Doutorado em F\'isica}
+	{UERJ}
+	{- T\'itulo da Tese: A constructive approach to the Bosonization of Fermi Liquids subjected to a homogeneous and weak magnetic field.\\ 
+		- Dezoito meses passados como Pesquisador Visitante na Universidade de Illinois em Urbana-Champaign.\\
+		- Bolsista do programa Ci\^encia Sem Fronteiras.\\
+		- Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). Bolsa conquistada devido a classicação no Exame Unificado das P\'os-Graduações em F\'isica do Rio de Janeiro.}
+	\entry
+	{2011 -- 2013}
+	{Mestrado em Física}
+	{UERJ}
+	{- T\'itulo da Dissertação: Transições de Fase e Interações Competitivas.\\
+		- Bolsista do Conselho Nacional de Pesquisa e Desenvolvimento (CNPQ). Bolsa conquistada devido a classicação no Exame Unificado das P\'os-Graduações em F\'isica do Rio de Janeiro.}
+	\entry
+	{2005 -- 2010}
+	{Bacharelado em Física}
+	{UERJ}
+	{- Título da Monografia: Supercondutividade: A equação de London e o Modelo de Ginzburg-Landau.\\
+		- Bolsista da Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de  Janeiro (FAPERJ) de 2007 a 2008.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	TECH EDUCATION
+%----------------------------------------------------------------------------------------
+\newpage
+\cvsect{Educação Técnica}
+
+\begin{entrylist}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Selenium WebDriver with Java - Basics to Advanced + Frameworks}
+		{Udemy}
+		{Curso de Selenium Webdriver com Java voltado para Automação de Testes.\\ 
+		\texttt{Selenium WebDriver}\slashsep\texttt{Maven}\slashsep\texttt{TestNG}\slashsep\texttt{Cucumber}}
+	\entry
+		{2020}% \\\footnotesize{(em andamento)} }
+		{Rest API Testing (Automation) from Scratch - RestAssured Java}
+		{Udemy}
+		{Curso de Rest Assured voltado para Automação de Testes (Rest API).\\
+		\texttt{Postman}\slashsep\texttt{Rest Assured}\slashsep\texttt{Java}}
+	\entry
+		{2020}
+		{Learn Protractor (Angular Testing) from scratch + Framework}
+		{Udemy}
+		{Curso de Protractor (com Javascript e Typescript) voltado para Automação de Testes.\\ \texttt{Protractor}\slashsep\texttt{Javascript}\slashsep\texttt{Typescript}}
+	\entry
+		{2020}% \\\footnotesize{(em andamento)} }
+		{NodeJS Rest - ExpressJS Mongodb - Jest Unit/Int Test - 2020}
+		{Udemy}
+		{Ensina o desenvolvimento de Rest APIs usando NodeJS/ExpressJS, além de discutir testes unitários e de integração.\\
+		\texttt{NodeJS}\slashsep\texttt{ExpressJS}\slashsep\texttt{Jest}\slashsep\texttt{MongoDB}\slashsep\texttt{Supertest}}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Automação de Testes com Robot Framework - Básico}
+		{Udemy}
+		{Curso de Robot Framework com Python voltado para Automação de Testes End-to-end e de API.\\ 
+		\texttt{Robot Framework}\slashsep\texttt{BDD}}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Selenium Python Automation Testing from Scratch + Frameworks}
+		{Udemy}
+		{Curso de Selenium Webdriver com Python voltado para Automação de Testes End-to-end.\\ 
+		\texttt{Selenium}\slashsep\texttt{Pytest}}
+		\entry
+		{2020}%\\\footnotesize{part time}}
+		{SQL Fundamentals}
+		{Datacamp}
+		{Introduz os conceitos básicos de SQL, começando por selecionar, filtrar e ordenar buscas na base de dados. Além disso, também são discutidos os diferentes tipos de JOIN, operações como união e intersecção, cálculo de médias, mínimos e máximos, filtros com e sem subqueries etc.\\ 
+		\texttt{SQL}\slashsep\texttt{Base de dados}}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Python Fundamentals}
+		{Datacamp}
+		{Focado nas ferramentas básicas para análise de dados em Python, esse curso introduz packages como Numpy, Pandas e Matplotlib.\\ 
+		\texttt{Numpy}\slashsep\texttt{Matplotlib}\slashsep\texttt{Pandas}}
+	\entry
+		{2020}
+		{SDET/Test Architect Essentials - Road to Full stack QA}
+		{Udemy}
+		{Discute tópicos modernos relacionados a otimização de código (Java Streams) e também aborda conceitos como Docker e Jenkins Pipelines.\\ 
+		\texttt{Docker-Selenium}\slashsep\texttt{Jenkins Pipelines}\slashsep\texttt{Java Streams}}
+	\entry
+		{2020}
+		{Learn to Code with Python}
+		{Udemy}
+		{Introduz desde os fundamentos básicos da linguagem até tópicos avançados como classes, decoradores, testes unitários. O curso é concluído com o desenvolvimento (TDD) de um jogo de poker.\\ 
+		\texttt{Python}\slashsep\texttt{Testes Unitários}}
+	\entry
+		{2020}
+		{Learn to Code with Ruby}
+		{Udemy}
+		{Apresenta os fundamentos de Ruby para depois abordar conceitos de programação orientada a objetos.\\ 
+		\texttt{Ruby}}
+\end{entrylist}
+
+
+
+%--------------------------------------------------------------------------
+% Artigos Publicados
+% ----------------------------------------------------------------------
+\newpage
+\cvsect{Artigos Publicados em Peri\'odicos Cient\'ificos}
+
+\begin{entrylist}
+	\entry
+	{2018}
+	{BARCI, DANIEL G.; FRADKIN, EDUARDO; RIBEIRO, LEONARDO}
+	{Physical Review B}
+	{- Título: Bosonization of Fermi liquids in a weak magnetic field.\\
+	- Referência: Physical Review B v. 98, p. 155146, 2018.\\
+	- arXiv: \href{https://arxiv.org/abs/1805.05337}{arxiv.org/abs/1805.05337} }
+	\entry
+	{2013}
+	{BARCI, DANIEL G.; RIBEIRO, LEONARDO; STARIOLO, DANIEL A.}
+	{Physical Review E}
+	{- Título: Nematic phase in two-dimensional frustrated systems with power-law decaying interactions.\\
+	- Referência: Physical Review E (Statistical, Nonlinear, and Soft Matter Physics), v.87, 062119.\\
+	- arXiv: \href{http://arxiv.org/abs/1306.1204}{arxiv.org/abs/1306.1204} }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Idiomas}
+	
+	\textbf{Português} - nativa\\
+	\textbf{Inglês} - fluente\\
+	\textbf{Espanhol} - intermediário
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Trabalho voluntário}
+	
+	Ex-professor no pré-vestibular comunitário da Mangueira.
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	Karaokê (péssimo cantor, mas com orgulho) e futebol.
+\end{minipage}
