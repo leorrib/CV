@@ -1,0 +1,348 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{varwidth}
+\usepackage{enumitem}
+\usepackage{hyperref}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.4\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	%\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUpp%ercase{Leonardo}}}}} % First name
+	
+	%\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUpp%ercase{Ribeiro}}}}} % Last name
+	
+	%\vspace{6pt}
+	
+	{	
+		%Curriculum Vitae\\\\ 
+		\huge Leonardo Rodrigues Ribeiro \\\\
+		\huge \textbf{Quality Assurance Analyst}
+	} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Tijuca, Rio de Janeiro}\\
+	\icon{Phone}{12}{+55 (21) 96845-9688}\\
+	%\icon{At}{12}{\href{mailto:alyx@vance.me}{alyx@vance.me}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.300\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{At}{12}{\href{mailto:ribeiro.lrodrigues@gmail.com}{ribeiro.lrodrigues@gmail.com}}
+	%\icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+	\icon{Github}{12}{\href{https://github.com/leorrib}{github.com/leorrib}}\\
+	%\icon{Twitter}{12}{\href{https://twitter.com/@alyxvance}{@alyxvance}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+%\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+%	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+%	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+%\end{minipage}
+%\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Programming Languages}
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{90}
+	    \baritem{R}{70}
+		\baritem{Python}{70}
+		\baritem{Java}{60}
+		\baritem{Ruby}{50}
+	\end{barchart}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.53\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Techs, Tools and Others}
+		
+		\begin{minipage}[t]{0.5\textwidth}
+			\begin{itemize}[label={\large\textbullet}]
+				\setlength\itemsep{0.01em}
+				\item Selenium (Java \& Python)
+				\item Junit \& TestNG 
+				\item Rest Assured
+				\item Supertest
+				\item Cucumber \& Behave
+				\item Protractor
+			\end{itemize}
+		\end{minipage}
+		\begin{minipage}[t]{0.5\textwidth}
+			\begin{itemize}
+				\setlength\itemsep{0.01em}
+				\item Azure Mach. Learn.
+				\item Data Analysis (R)
+				\item SQL
+				\item Git (lab \& hub)
+				\item Docker
+				\item AWS basics
+			\end{itemize}
+	\end{minipage}
+\end{minipage}
+%
+
+\cvsect{Who am I}
+
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Data Scientist aspirant, I now work as QA Analyst at Globo. I have a peculiar Educational background: I own a PhD in Physics, obtained at the State University of Rio de Janeiro. I had the privilege of start working as a professor when I was only 25 and in one of the most relevant universities in Brazil, the State University of Rio de Janeiro. Afterwards, I was a Visiting Scholar at the University of Illinois at Urbana-Champaign and, at the age of 30, I was hired by the largest federal university in Brazil, the Federal University of Rio de Janeiro, where I taught a variety of Calculus subjects. At 32, after finishing my phd, I dedicated myself to study the subject of test automation and, today, I work as QA Analayst at Grupo Globo, the largest media company in Brazil.
+%\begin{center}
+%	\bubbles{
+%		5/\begin{varwidth}[]{\linewidth}
+%			\begin{center}
+%				Selenium\\
+%				WebDriver
+%			\end{center}
+%		\end{varwidth},
+%		4/\begin{varwidth}[c]{\linewidth}
+%			\begin{center}
+%				Rest\\
+%				Assured
+%			\end{center}
+%		\end{varwidth}, 
+%		5/Protractor, 
+%		5/Jenkins, 
+%		5/Git, 
+%		5/TestNG}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsect{Professional Experience}
+
+\begin{entrylist}
+	\entry
+	{2021 (current)}%\\\footnotesize{part time}}
+	{Anl Quality Assurance II}
+	{Globo Comunicação e Participações S/A}
+	{Main responsibilities:\\
+- Discussion/comprehension of business rules (with final consumers as well as with the development team).\\
+- Definition of sets of criteria for a feature to be considered implemented.\\
+- AWS log reading, mainly focused on bugs. That allows me to write a detailed reporting about the issues, making it easier and faster for developers to solve it.\\
+- Creating API and UI automated tests (supertest/protractor).\\
+- Database manipulation (MySQL).\\
+- Maintenance of the integration between automated testes and the project's pipeline.\\
+- Participation in the recruitment of new QA Analysts.\\
+- Training new QA Analysts.}
+	\entry
+	{2020}%\\\footnotesize{part time}}
+	{Test Analyst}
+	{Noesis Consultoria e Programação de Sistemas de Informática LTDA}
+	{Main responsabilities:\\
+- Validating the continuous functionality of all the features of the software being developed.\\
+- Writing automated API and UI tests.\\
+- Data handling on databases (SQL).}
+	\entry
+	{2017 -- 2018}
+	{Professor}
+	{UFRJ}
+	{- Subjects taught: Mathematics II, Calculus II and Calculus III.}
+	\entry
+	{2015 -- 2016}
+	{Research Scholar}
+	{University of Illinois at Urbana-Champaign}
+	{- Research in Condensed Matter Physics (multidimensional bosonization of systems under a weak magnetic field).}
+	\entry
+	{2013 -- 2014}
+	{Professor}
+	{UERJ}
+	{- Subjects taught: Mathematics Applied to Business, Calculus I, Calculus IV and Complex Analysis.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\newpage
+\cvsect{Academic Background}
+
+\begin{entrylist}
+	\entry
+	{2013 -- 2019}
+	{PhD (Physics)}
+	{UERJ}
+	{- Thesis title: A constructive approach to the Bosonization of Fermi Liquids subjected to a homogeneous and weak magnetic field.\\ 
+		- Eighteen months spent as a Research Scholar at theUniversity of Illinois Urbana-Champaign.\\
+		- Scholarship received from Ci\^encia Sem Fronteiras.\\
+		- Scholarship received from Lehman Foundation.\\
+		- Scholarship received from Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES).}
+	\entry
+	{2011 -- 2013}
+	{Masters (Physics)}
+	{UERJ}
+	{- Thesis title: Transições de Fase e Interações Competitivas.\\
+		- Scholarship received from Conselho Nacional de Pesquisa e Desenvolvimento (CNPQ).}
+	\entry
+	{2005 -- 2010}
+	{Bachelor's degree (Physics)}
+	{UERJ}
+	{- Thesis title: Supercondutividade: A equação de London e o Modelo de Ginzburg-Landau.\\
+		- Scholarship received from Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de  Janeiro (FAPERJ).}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	TECH EDUCATION
+%----------------------------------------------------------------------------------------
+\cvsect{Tech Education}
+
+\begin{entrylist}
+	\entry
+		{2021}%\\\footnotesize{part time}}
+		{Big Data Analytics with R and Microsoft Azure Machine Learning}
+		{DataScienceAcademy}
+		{Discusses the main features of the R language used in Data Science. Besides, it also introduces data visualization and manipulation techniques, aside from analysis and the construction of Machine Learning Models using R and Microsoft Azure Machine Learning.\\ 
+		\texttt{Data Analysis}\slashsep\texttt{Machine Learning}\slashsep\texttt{Microsoft Azure Machine Learning}}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{SQL Fundamentals}
+		{Datacamp}
+		{Discusses fundamental skills needed to interact with and query data in SQL.\\ 
+		\texttt{SQL}\slashsep\texttt{database}}
+	\entry
+		{2020}
+		{Learn to Code with Python}
+		{Udemy}
+		{Introduces from core language fundamentals to advanced features like classes, decorators and unit testing. The final project is the development of a poker game.\\ 
+		\texttt{Python}\slashsep\texttt{unit testing}}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Python Fundamentals}
+		{Datacamp}
+		{Python basics, including how to clean real-world data ready for analysis and use data visualization libraries.\\ 
+		\texttt{Numpy}\slashsep\texttt{Matplotlib}\slashsep\texttt{Pandas}}
+	\entry
+		{2020}
+		{SDET/Test Architect Essentials - Road to Full stack QA}
+		{Udemy}
+		{Introduces the implementation of Docker and discusses Jenkins Pipelines.\\ 
+		\texttt{Docker-Selenium}\slashsep\texttt{Jenkins Pipelines}}
+	\entry
+		{2020}
+		{Learn Protractor (Angular Testing) from scratch + Framework}
+		{Udemy}
+		{Discusses the creation of User Interface automated tests using protractor.\\
+		\texttt{Protractor}\slashsep\texttt{Javascript}\slashsep\texttt{Typescript}}
+	\entry
+		{2020}% \\\footnotesize{(em andamento)} }
+		{NodeJS Rest - ExpressJS Mongodb - Jest Unit/Int Test - 2020}
+		{Udemy}
+		{Develops a Rest API by using NodeJS/ExpressJS. Moreover, it also teaches how to create unit and integration tests.\\
+		\texttt{NodeJS}\slashsep\texttt{ExpressJS}\slashsep\texttt{Jest}\slashsep\texttt{MongoDB}\slashsep\texttt{Supertest}}	
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Selenium WebDriver with Java - Basics to Advanced + Frameworks}
+		{Udemy}
+		{Discusses the creation of User Interface automated tests using Selenium Webdriver (with Java).\\ 
+		\texttt{Selenium WebDriver}\slashsep\texttt{Maven}\slashsep\texttt{TestNG}\slashsep\texttt{Cucumber}}
+	\entry
+		{2020}% \\\footnotesize{(em andamento)} }
+		{Rest API Testing (Automation) from Scratch - RestAssured Java}
+		{Udemy}
+		{Discusses the creation of API integration tests using RestAssured.\\
+		\texttt{Postman}\slashsep\texttt{Rest Assured}\slashsep\texttt{Java}}
+	\entry
+		{2020}%\\\footnotesize{part time}}
+		{Selenium Python Automation Testing from Scratch + Frameworks}
+		{Udemy}
+		{Discusses the creation of User Interface automated tests using Selenium Webdriver (with Python).\\ 
+		\texttt{Selenium}\slashsep\texttt{Pytest}}
+\end{entrylist}
+
+
+
+%--------------------------------------------------------------------------
+% Artigos Publicados
+% ----------------------------------------------------------------------
+\newpage
+\cvsect{Papers Published in Scientific Journals}
+
+\begin{entrylist}
+	\entry
+	{2018}
+	{BARCI, DANIEL G.; FRADKIN, EDUARDO; RIBEIRO, LEONARDO}
+	{Physical Review B}
+	{- Title: Bosonization of Fermi liquids in a weak magnetic field.\\
+	- Reference: Physical Review B v. 98, p. 155146, 2018.\\
+	- arXiv: \href{https://arxiv.org/abs/1805.05337}{arxiv.org/abs/1805.05337} }
+	\entry
+	{2013}
+	{BARCI, DANIEL G.; RIBEIRO, LEONARDO; STARIOLO, DANIEL A.}
+	{Physical Review E}
+	{- Title: Nematic phase in two-dimensional frustrated systems with power-law decaying interactions.\\
+	- Reference: Physical Review E (Statistical, Nonlinear, and Soft Matter Physics), v.87, 062119.\\
+	- arXiv: \href{http://arxiv.org/abs/1306.1204}{arxiv.org/abs/1306.1204} }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Portuguese} - native\\
+	\textbf{English} - fluent\\
+	\textbf{Spanish} - average
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Trabalho voluntário}
+	
+	Ex-professor no pré-vestibular comunitário da Mangueira.
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	Karaokê (péssimo cantor, mas com orgulho) e futebol.
+\end{minipage}
